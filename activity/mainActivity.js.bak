@@ -1,0 +1,9 @@
+function oddEvenChecker(input) {
+	if (typeof input == 'number') {
+		input % 2 === 0 ? console.log("The number is even.") : console.log("The number is odd.");
+	} else {
+		console.log("Invalid input.");
+	};
+};
+
+oddEvenChecker('we got this');
